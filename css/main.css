@@ -61,22 +61,30 @@ footer {
 @media (min-width: 768px) {
   header {
     background-color: #d335d3 ;
+    width: 100%;
   }
 
   #column-1 {
     background-color: #718fee;
+    width: 50%;
+    float: left;
   }
 
   #column-2 {
     background-color: #f3ff00;
+    width: 50%;
+    float: left;
   }
 
   #column-3 {
     background-color: #ff9087;
+    width: 100%;
+    float: left;
   }
 
   footer {
     background-color: #00ffff;
+    width: 100%;
   }
   
 }
@@ -86,22 +94,27 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: #ff020E;
+    width: 100%;
   }
 
   #column-1 {
     background-color: #334455;
+    width: 33.33%;
   }
 
   #column-2 {
     background-color: #518bc5;
+    width: 33.33%;
   }
 
   #column-3 {
     background-color: #081836;
+    width: 33.33%;
   }
 
   footer {
     background-color: #345544;
+    width: 100%;
   }
    
 }
